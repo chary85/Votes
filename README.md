@@ -1,3 +1,7 @@
+## Prérequis
+- Python 3.9+
+- MongoDB
+
 ## Setup
 1. Cloner le repertoire:
    ```bash
@@ -11,8 +15,17 @@
    source env/bin/activate  # macOS/Linux
    env\Scripts\activate     # Windows
    ```
-      
+
 3. Installer les dépendances
    ```bash
    pip install -r requirements.txt
    ```
+4. Créer une base de données en suivant cette architecture
+   ```bash
+   -mydb
+      -Profil_close
+      -questions
+      -questions_delete
+      -scrutin_archive
+      -users
+   ``` 
